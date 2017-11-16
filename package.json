@@ -2,16 +2,18 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "A simple node.js calculator",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "testCalc"
+    "start": "electron ."
   },
   "author": "Adam S. North",
   "license": "MIT",
   "dependencies": {
     "node-gui": "^1.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "~1.7.8"
+  },
   "repository": {
     "type": "git",
     "url": "\u001b[2~https://github.com/AdamStephenNorth/Calculator.git"
