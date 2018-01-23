@@ -1,6 +1,7 @@
 {
   "name": "calculator",
   "version": "1.0.0",
+  "private": "true",
   "description": "A simple node.js calculator",
   "main": "main.js",
   "scripts": {
@@ -12,7 +13,7 @@
     "node-gui": "^1.0.2"
   },
   "devDependencies": {
-    "electron": "~1.7.8"
+    "electron": "~1.7.11"
   },
   "repository": {
     "type": "git",
